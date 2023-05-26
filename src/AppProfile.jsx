@@ -13,6 +13,7 @@ function AppProfile() {
         image="https://avatars.githubusercontent.com/u/54212261?v=4"
         name="Yeasul Lee"
         title="학생"
+        isNew={true}
       />
       <Profile
         image="https://avatars.githubusercontent.com/u/87212165?v=4"
