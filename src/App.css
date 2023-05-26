@@ -39,3 +39,36 @@
   font-weight: bold;
   color: white;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(242, 10, 130);
+}
+
+.counter:hover {
+  background-color: rgba(254, 211, 255, 0.78);
+}
+
+.number {
+  font-size: 7rem;
+}
+
+.button {
+  color: white;
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: rgb(73, 210, 255);
+  background: linear-gradient(90deg, rgb(248, 74, 141), rgb(5, 154, 223));
+}
