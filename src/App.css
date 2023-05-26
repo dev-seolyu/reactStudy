@@ -45,6 +45,14 @@
   justify-content: center;
 }
 
+.banner {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: rgb(182, 231, 179);
+  font-weight: bold;
+}
+
 .counter {
   display: flex;
   flex-direction: column;
@@ -71,4 +79,9 @@
   cursor: pointer;
   background: rgb(73, 210, 255);
   background: linear-gradient(90deg, rgb(248, 74, 141), rgb(5, 154, 223));
+}
+
+.total {
+  font-size: 1rem;
+  margin-left: -1.5rem;
 }
