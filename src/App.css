@@ -9,6 +9,7 @@
   background-color: #d4f3f8;
   border-radius: 20px;
   box-shadow: 10px 11px 24px -13px rgba(124, 191, 240, 0.78);
+  margin-bottom: 1rem;
   -webkit-box-shadow: 10px 11px 24px -13px rgba(124, 191, 240, 0.78);
   -moz-box-shadow: 10px 11px 24px -13px rgba(124, 191, 240, 0.78);
 }

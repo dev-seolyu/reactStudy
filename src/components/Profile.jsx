@@ -1,15 +1,23 @@
+// import React from 'react';
+
+// export default function Profile(props) {
+//   return (
+//     <div className="profile">
+//       <img className="photo" src={props.image} alt="avatar" />
+//       <h1>{props.name}</h1>
+//       <p>{props.title}</p>
+//     </div>
+//   );
+// }
+
 import React from 'react';
 
-export default function Profile() {
+export default function Profile({ image, name, title }) {
   return (
     <div className="profile">
-      <img
-        className="photo"
-        src="https://avatars.githubusercontent.com/u/109942639?v=4"
-        alt="avatar"
-      />
-      <h1>Seolyu Lee</h1>
-      <p>개발자</p>
+      <img className="photo" src={image} alt="avatar" />
+      <h1>{name}</h1>
+      <p>{title}</p>
     </div>
   );
 }
