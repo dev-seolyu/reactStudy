@@ -1,9 +1,14 @@
 import './App.css';
+import Avartar from './components/Avartar';
 import Profile from './components/Profile';
 
 function AppProfile() {
   return (
     <>
+      <Avartar
+        image="https://avatars.githubusercontent.com/u/87252819?v=4"
+        isNew={true}
+      />
       <Profile
         image="https://avatars.githubusercontent.com/u/109942639?v=4"
         name="Seolyu Lee"
