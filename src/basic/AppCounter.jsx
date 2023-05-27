@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import './App.css';
-import Counter from './components/Counter';
+import React, { useState } from "react";
+import "./App.css";
+import Counter from "./components/Counter";
 
 function AppCounter() {
   const [count, setCount] = useState(0);
@@ -8,7 +8,7 @@ function AppCounter() {
   return (
     <div className="containter">
       <div className="banner">
-        Total Count: {count} {count > 10 ? '❤️‍🔥' : '🤍'}
+        Total Count: {count} {count > 10 ? "❤️‍🔥" : "🤍"}
       </div>
       <div className="counters">
         <Counter total={count} onClick={handleClick} />
